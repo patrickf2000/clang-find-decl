@@ -21,7 +21,7 @@ public:
   //
   // Format: file,name,isStruct,isClass,isUnion,isEnum,
   //         isThisDeclarationADefinition,isCompleteDefinition,isBeingDefined,isEmbeddedInDeclarator,
-  //         isFreeStanding,isDependentType,isThisDeclarationADemotedDefinition
+  //         isFreeStanding,isDependentType
   //        \n
   //
   bool VisitTagDecl(TagDecl *Declaration) {

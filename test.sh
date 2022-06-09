@@ -24,7 +24,7 @@ echo "]" >> $JSON
 OUTPUT=output.csv
 printf "file,name,isStruct,isClass,isUnion,isEnum," > $OUTPUT
 printf "isThisDeclarationADefinition,isCompleteDefinition,isBeingDefined,isEmbeddedInDeclarator," >> $OUTPUT
-printf "isFreeStanding,isDependentType,isThisDeclarationADemotedDefinition" >> $OUTPUT
+printf "isFreeStanding,isDependentType" >> $OUTPUT
 echo "" >> $OUTPUT
 
 # The loop
