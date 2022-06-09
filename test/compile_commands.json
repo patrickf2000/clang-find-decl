@@ -1,0 +1,17 @@
+[
+{
+"directory": "/home/patrick/Desktop/clang-traversal/test",
+"command": "clang /home/patrick/Desktop/clang-traversal/test/test/enum1.c",
+"file": "/home/patrick/Desktop/clang-traversal/test/test/enum1.c"
+},
+{
+"directory": "/home/patrick/Desktop/clang-traversal/test",
+"command": "clang /home/patrick/Desktop/clang-traversal/test/test/enum2.c",
+"file": "/home/patrick/Desktop/clang-traversal/test/test/enum2.c"
+},
+{
+"directory": "/home/patrick/Desktop/clang-traversal",
+"command": "clang /home/patrick/Desktop/clang-traversal/test.c",
+"file": "/home/patrick/Desktop/clang-traversal/test.c"
+}
+]

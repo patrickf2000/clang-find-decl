@@ -1,0 +1,3 @@
+file,name,isStruct,isClass,isUnion,isEnum,isThisDeclarationADefinition,isCompleteDefinition,isBeingDefined,isEmbeddedInDeclarator,isFreeStanding,isDependentType,isThisDeclarationADemotedDefinition
+/home/patrick/Desktop/clang-traversal/test/enum1.c,x,0,0,0,1,1,1,0,0,1,0
+/home/patrick/Desktop/clang-traversal/test/enum2.c,,0,0,0,1,1,1,0,1,0,0

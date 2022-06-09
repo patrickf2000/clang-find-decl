@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/patrick/Desktop/clang-traversal/",
+  "command": "clang /home/patrick/Desktop/clang-traversal/test.c",
+  "file": "/home/patrick/Desktop/clang-traversal/test.c"
+}
+]
+
