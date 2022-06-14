@@ -248,3 +248,4 @@ file,line,name,isStruct,isClass,isUnion,isEnum,isThisDeclarationADefinition,isCo
 /home/patrick/Projects/clang-traversal/test/enum_10.c,21,,0,0,0,1,1,1,0,1,0,0
 /home/patrick/Projects/clang-traversal/test/enum1.c,2,x,0,0,0,1,1,1,0,0,1,0
 /home/patrick/Projects/clang-traversal/test/enum2.c,1,,0,0,0,1,1,1,0,1,0,0
+/home/patrick/Projects/clang-traversal/test/extra-semi-resulting-in-nullstmt.cpp,10,MyEnum,0,0,0,1,1,1,0,0,1,0

@@ -5,11 +5,15 @@ echo "Running tests..."
 # Generate test/compile_commands.json
 JSON=test/compile_commands.json
 echo "[" > $JSON
-for f in test/*.c
+for f in test/{*.c,*.cpp}
 do
     echo "{"  >> $JSON
     echo "\"directory\": \"`pwd`/test\","  >> $JSON
-    echo "\"command\": \"clang `pwd`/test/$f\","  >> $JSON
+    if [[ ${f#*.} == "cpp" ]] ; then
+        echo "\"command\": \"clang++ `pwd`/test/$f\","  >> $JSON
+    else
+        echo "\"command\": \"clang `pwd`/test/$f\","  >> $JSON
+    fi
     echo "\"file\": \"`pwd`/test/$f\""  >> $JSON
     echo "},"  >> $JSON
 done
@@ -28,7 +32,7 @@ printf "isFreeStanding,isDependentType" >> $OUTPUT
 echo "" >> $OUTPUT
 
 # The loop
-for f in test/*.c
+for f in test/{*.c,*.cpp}
 do
     echo ""
     echo $f

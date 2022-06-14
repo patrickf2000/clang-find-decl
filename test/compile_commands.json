@@ -230,6 +230,16 @@
 "file": "/home/patrick/Projects/clang-traversal/test/test/enum2.c"
 },
 {
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang++ /home/patrick/Projects/clang-traversal/test/test/cxx0x-decl.cpp",
+"file": "/home/patrick/Projects/clang-traversal/test/test/cxx0x-decl.cpp"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang++ /home/patrick/Projects/clang-traversal/test/test/extra-semi-resulting-in-nullstmt.cpp",
+"file": "/home/patrick/Projects/clang-traversal/test/test/extra-semi-resulting-in-nullstmt.cpp"
+},
+{
 "directory": "/home/patrick/Projects/clang-traversal",
 "command": "clang /home/patrick/Projects/clang-traversal/test.c",
 "file": "/home/patrick/Projects/clang-traversal/test.c"
