@@ -22,7 +22,7 @@ echo "]" >> $JSON
 
 # Setup the CSV
 OUTPUT=output.csv
-printf "file,name,isStruct,isClass,isUnion,isEnum," > $OUTPUT
+printf "file,line,name,isStruct,isClass,isUnion,isEnum," > $OUTPUT
 printf "isThisDeclarationADefinition,isCompleteDefinition,isBeingDefined,isEmbeddedInDeclarator," >> $OUTPUT
 printf "isFreeStanding,isDependentType" >> $OUTPUT
 echo "" >> $OUTPUT
@@ -30,8 +30,12 @@ echo "" >> $OUTPUT
 # The loop
 for f in test/*.c
 do
+    echo ""
+    echo $f
+    
     build/find-decls $f >> $OUTPUT
 done
 
+echo ""
 echo "Done"
 

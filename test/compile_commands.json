@@ -1,17 +1,237 @@
 [
 {
-"directory": "/home/patrick/Desktop/clang-traversal/test",
-"command": "clang /home/patrick/Desktop/clang-traversal/test/test/enum1.c",
-"file": "/home/patrick/Desktop/clang-traversal/test/test/enum1.c"
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00017.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00017.c"
 },
 {
-"directory": "/home/patrick/Desktop/clang-traversal/test",
-"command": "clang /home/patrick/Desktop/clang-traversal/test/test/enum2.c",
-"file": "/home/patrick/Desktop/clang-traversal/test/test/enum2.c"
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00018.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00018.c"
 },
 {
-"directory": "/home/patrick/Desktop/clang-traversal",
-"command": "clang /home/patrick/Desktop/clang-traversal/test.c",
-"file": "/home/patrick/Desktop/clang-traversal/test.c"
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00019.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00019.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00024.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00024.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00042.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00042.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00043.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00043.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00044.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00044.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00046.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00046.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00047.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00047.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00048.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00048.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00049.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00049.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00050.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00050.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00052.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00052.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00053.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00053.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00054.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00054.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00055.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00055.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00087.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00087.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00089.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00089.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00091.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00091.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00099.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00099.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00106.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00106.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00118.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00118.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00120.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00120.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00129.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00129.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00140.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00140.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00146.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00146.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00148.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00148.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00149.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00149.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00150.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00150.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00153.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00153.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00154.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00154.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00163.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00163.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00170.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00170.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00195.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00195.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00198.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00198.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00204.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00204.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00205.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00205.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00208.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00208.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00209.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00209.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00210.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00210.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00216.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00216.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00218.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00218.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/00219.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/00219.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/enum_10.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/enum_10.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/enum1.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/enum1.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal/test",
+"command": "clang /home/patrick/Projects/clang-traversal/test/test/enum2.c",
+"file": "/home/patrick/Projects/clang-traversal/test/test/enum2.c"
+},
+{
+"directory": "/home/patrick/Projects/clang-traversal",
+"command": "clang /home/patrick/Projects/clang-traversal/test.c",
+"file": "/home/patrick/Projects/clang-traversal/test.c"
 }
 ]

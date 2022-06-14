@@ -30,6 +30,10 @@ public:
     const FileEntry *entry = sources->getFileEntryForID(main_id);
     
     llvm::outs() << entry->getName() << ",";
+    
+    FullSourceLoc FullLocation = Context->getFullLoc(Declaration->getBeginLoc());
+    if (FullLocation.isValid()) llvm::outs() << FullLocation.getSpellingLineNumber() << ",";
+    
     llvm::outs() << Declaration->getNameAsString() << ",";
     llvm::outs() << Declaration->isStruct() << ",";
     llvm::outs() << Declaration->isClass() << ",";
