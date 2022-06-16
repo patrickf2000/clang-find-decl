@@ -20,8 +20,8 @@ public:
   
   //
   // Format: file,name,isStruct,isClass,isUnion,isEnum,
-  //         isThisDeclarationADefinition,isCompleteDefinition,isBeingDefined,isEmbeddedInDeclarator,
-  //         isFreeStanding,isDependentType
+  //         isThisDeclarationADefinition,isCompleteDefinition,isEmbeddedInDeclarator,
+  //         isFreeStanding
   //        \n
   //
   bool VisitTagDecl(TagDecl *Declaration) {
@@ -41,10 +41,8 @@ public:
     llvm::outs() << Declaration->isEnum() << ",";
     llvm::outs() << Declaration->isThisDeclarationADefinition() << ",";
     llvm::outs() << Declaration->isCompleteDefinition() << ",";
-    llvm::outs() << Declaration->isBeingDefined() << ",";
     llvm::outs() << Declaration->isEmbeddedInDeclarator() << ",";
-    llvm::outs() << Declaration->isFreeStanding() << ",";
-    llvm::outs() << Declaration->isDependentType();
+    llvm::outs() << Declaration->isFreeStanding();
     //llvm::outs() << Declaration->isThisDeclarationADemotedDefinition();
     llvm::outs() << "\n";
     

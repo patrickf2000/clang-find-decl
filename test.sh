@@ -27,8 +27,8 @@ echo "]" >> $JSON
 # Setup the CSV
 OUTPUT=output.csv
 printf "file,line,name,isStruct,isClass,isUnion,isEnum," > $OUTPUT
-printf "isThisDeclarationADefinition,isCompleteDefinition,isBeingDefined,isEmbeddedInDeclarator," >> $OUTPUT
-printf "isFreeStanding,isDependentType" >> $OUTPUT
+printf "isThisDeclarationADefinition,isCompleteDefinition,isEmbeddedInDeclarator," >> $OUTPUT
+printf "isFreeStanding" >> $OUTPUT
 echo "" >> $OUTPUT
 
 # The loop
