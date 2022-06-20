@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import csv
 
-# We are interested in these columns: 10, 9, 8, 7
+# We are interested in these columns: 11, 10, 9, 8, 7
 
 row_index = 0
 
@@ -13,12 +13,14 @@ def row_exists(input_row):
 	data8 = input_row[8]
 	data9 = input_row[9]
 	data10 = input_row[10]
+	data11 = input_row[11]
 	for row in data:
 		i7 = row[7]
 		i8 = row[8]
 		i9 = row[9]
 		i10 = row[10]
-		if data7 == i7 and data8 == i8 and data9 == i9 and data10 == i10:
+		i11 = row[11]
+		if data7 == i7 and data8 == i8 and data9 == i9 and data10 == i10 and data11 == i11:
 			return True
 	return False
 

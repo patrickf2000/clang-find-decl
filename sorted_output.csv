@@ -1,6 +1,7 @@
-file,line,name,isStruct,isClass,isUnion,isEnum,isThisDeclarationADefinition,isCompleteDefinition,isEmbeddedInDeclarator,isFreeStanding
-/home/patrick/llnl/clang-find-decl/test/00017.c,4,,1,0,0,0,1,1,1,0
-/home/patrick/llnl/clang-find-decl/test/00043.c,1,s,1,0,0,0,1,1,0,1
-/home/patrick/llnl/clang-find-decl/test/00044.c,1,T,1,0,0,0,0,0,0,1
-/home/patrick/llnl/clang-find-decl/test/00046.c,3,,0,0,1,0,1,1,1,1
-/home/patrick/llnl/clang-find-decl/test/00129.c,1,s,1,0,0,0,0,0,1,0
+file,line,name,isStruct,isClass,isUnion,isEnum,isThisDeclarationADefinition,isCompleteDefinition,isEmbeddedInDeclarator,isFreeStanding,hasNameForLinkage
+/home/patrick/llnl/clang-find-decl/test/00017.c,4,,1,0,0,0,1,1,1,0,0
+/home/patrick/llnl/clang-find-decl/test/00018.c,5,S,1,0,0,0,1,1,1,0,1
+/home/patrick/llnl/clang-find-decl/test/00043.c,1,s,1,0,0,0,1,1,0,1,1
+/home/patrick/llnl/clang-find-decl/test/00044.c,1,T,1,0,0,0,0,0,0,1,1
+/home/patrick/llnl/clang-find-decl/test/00046.c,3,,0,0,1,0,1,1,1,1,0
+/home/patrick/llnl/clang-find-decl/test/00129.c,1,s,1,0,0,0,0,0,1,0,1

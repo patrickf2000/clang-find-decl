@@ -42,7 +42,8 @@ public:
     llvm::outs() << Declaration->isThisDeclarationADefinition() << ",";
     llvm::outs() << Declaration->isCompleteDefinition() << ",";
     llvm::outs() << Declaration->isEmbeddedInDeclarator() << ",";
-    llvm::outs() << Declaration->isFreeStanding();
+    llvm::outs() << Declaration->isFreeStanding() << ",";
+    llvm::outs() << Declaration->hasNameForLinkage();
     //llvm::outs() << Declaration->isThisDeclarationADemotedDefinition();
     llvm::outs() << "\n";
     
