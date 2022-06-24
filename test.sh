@@ -28,7 +28,14 @@ echo "]" >> $JSON
 OUTPUT=output.csv
 printf "file,line,name,isStruct,isClass,isUnion,isEnum," > $OUTPUT
 printf "isThisDeclarationADefinition,isCompleteDefinition,isEmbeddedInDeclarator," >> $OUTPUT
-printf "isFreeStanding,hasNameForLinkage" >> $OUTPUT
+printf "isFreeStanding,hasNameForLinkage," >> $OUTPUT
+printf "(ENUM) isScoped,(ENUM) isScopedUsingClassTag,(ENUM) isFixed,(ENUM) isComplete," >> $OUTPUT
+printf "(ENUM) isClosed,(ENUM) isClosedFlag,(ENUM) isClosedNonFlag," >> $OUTPUT
+printf "(RECORD) isAnonymousStructOrUnion,(RECORD) isNonTrivialToPrimitiveDefaultInitialize," >> $OUTPUT
+printf "(RECORD) isNonTrivialToPrimitiveCopy,(RECORD) isNonTrivialToPrimitiveDestroy," >> $OUTPUT
+printf "(RECORD) isParamDestroyedInCallee,(RECORD) isInjectedClassName,(RECORD) isLambda,(RECORD) isCapturedRecord," >> $OUTPUT
+printf "(RECORD) hasObjectMember,(RECORD) hasVolatileMember,(RECORD) hasLoadedFieldsFromExternalStorage,(RECORD) hasNonTrivialToPrimitiveDefaultInitializeCUnion," >> $OUTPUT
+printf "(RECORD) hasNonTrivialToPrimitiveDestructCUnion,(RECORD) hasNonTrivialToPrimitiveCopyCUnion,(RECORD) canPassInRegisters,(RECORD) field_empty" >> $OUTPUT
 echo "" >> $OUTPUT
 
 # The loop

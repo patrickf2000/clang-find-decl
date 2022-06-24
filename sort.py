@@ -9,18 +9,15 @@ data = list()
 header = list()
 
 def row_exists(input_row):
-	data7 = input_row[7]
-	data8 = input_row[8]
-	data9 = input_row[9]
-	data10 = input_row[10]
-	data11 = input_row[11]
+	start = 7
+	end = len(input_row) - 1
+	#end = 11
 	for row in data:
-		i7 = row[7]
-		i8 = row[8]
-		i9 = row[9]
-		i10 = row[10]
-		i11 = row[11]
-		if data7 == i7 and data8 == i8 and data9 == i9 and data10 == i10 and data11 == i11:
+		unique = True
+		for i in range(start, end):
+			if row[i] != input_row[i]:
+				unique = False
+		if unique:
 			return True
 	return False
 

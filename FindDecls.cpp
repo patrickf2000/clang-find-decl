@@ -22,6 +22,8 @@ public:
   // Format: file,name,isStruct,isClass,isUnion,isEnum,
   //         isThisDeclarationADefinition,isCompleteDefinition,isEmbeddedInDeclarator,
   //         isFreeStanding
+  //        ----- ENUM -----
+  //        isScoped,isScopedUsingClassTag,isFixed,isComplete,isClosed,isClosedFlag,isClosedNonFlag
   //        \n
   //
   bool VisitTagDecl(TagDecl *Declaration) {
@@ -43,11 +45,72 @@ public:
     llvm::outs() << Declaration->isCompleteDefinition() << ",";
     llvm::outs() << Declaration->isEmbeddedInDeclarator() << ",";
     llvm::outs() << Declaration->isFreeStanding() << ",";
-    llvm::outs() << Declaration->hasNameForLinkage();
-    //llvm::outs() << Declaration->isThisDeclarationADemotedDefinition();
+    llvm::outs() << Declaration->hasNameForLinkage() << ",";
+    
+    if (Declaration->isEnum()) {
+        EnumDecl *Dec2 = static_cast<EnumDecl *>(Declaration);
+        llvm::outs() << Dec2->isScoped() << ",";
+        llvm::outs() << Dec2->isScopedUsingClassTag() << ",";
+        llvm::outs() << Dec2->isFixed() << ",";
+        llvm::outs() << Dec2->isComplete() << ",";
+        llvm::outs() << Dec2->isClosed() << ",";
+        llvm::outs() << Dec2->isClosedFlag() << ",";
+        llvm::outs() << Dec2->isClosedNonFlag();
+    } else {
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ";
+    }
+    
+    // If it's not an enum, it's probably anything else
+    // isAnonymousStructOrUnion,isNonTrivialToPrimitiveDefaultInitialize,
+    // isNonTrivialToPrimitiveCopy,isNonTrivialToPrimitiveDestroy,
+    // isParamDestroyedInCallee,isInjectedClassName,isLambda,isCapturedRecord,
+    // hasObjectMember,hasVolatileMember,hasLoadedFieldsFromExternalStorage,hasNonTrivialToPrimitiveDefaultInitializeCUnion,
+    // hasNonTrivialToPrimitiveDestructCUnion,hasNonTrivialToPrimitiveCopyCUnion,canPassInRegisters,field_empty
+    if (!Declaration->isEnum()) {
+        RecordDecl *record = static_cast<RecordDecl *>(Declaration);
+        llvm::outs() << record->isAnonymousStructOrUnion() << ",";
+        llvm::outs() << record->isNonTrivialToPrimitiveDefaultInitialize() << ",";
+        llvm::outs() << record->isNonTrivialToPrimitiveCopy() << ",";
+        llvm::outs() << record->isNonTrivialToPrimitiveDestroy() << ",";
+        llvm::outs() << record->isParamDestroyedInCallee() << ",";
+        llvm::outs() << record->isInjectedClassName() << ",";
+        llvm::outs() << record->isLambda() << ",";
+        llvm::outs() << record->isCapturedRecord() << ",";
+        llvm::outs() << record->hasObjectMember() << ",";
+        llvm::outs() << record->hasVolatileMember() << ",";
+        llvm::outs() << record->hasLoadedFieldsFromExternalStorage() << ",";
+        llvm::outs() << record->hasNonTrivialToPrimitiveDefaultInitializeCUnion() << ",";
+        llvm::outs() << record->hasNonTrivialToPrimitiveDestructCUnion() << ",";
+        llvm::outs() << record->hasNonTrivialToPrimitiveCopyCUnion() << ",";
+        llvm::outs() << record->canPassInRegisters() << ",";
+        llvm::outs() << record->field_empty();
+    } else {
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ,";
+        llvm::outs() << " ";
+    }
+    
     llvm::outs() << "\n";
     
-    //llvm::outs() << "Tag declaration: " << Declaration->getNameAsString() << "\n";
     return true;
   }
 
