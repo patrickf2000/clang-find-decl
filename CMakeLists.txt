@@ -23,4 +23,24 @@ target_link_libraries(find-decls
   clangSerialization
   clangTooling
   )
+  
+##
+## Build the Rose tool
+##
+find_package(Boost
+  COMPONENTS chrono date_time filesystem iostreams program_options random regex system wave thread
+  REQUIRED)
+  
+include_directories(
+    /home/patrick/llnl/cmake/install/include
+    /home/patrick/llnl/cmake/install/include/rose
+)
+link_directories(/home/patrick/llnl/cmake/install/lib)
+  
+add_executable(rose-find-decls RoseFindDecls.cpp)
+
+target_link_libraries(rose-find-decls
+    -lrose
+    ${Boost_LIBRARIES}
+)
 
