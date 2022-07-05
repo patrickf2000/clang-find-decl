@@ -1,6 +1,12 @@
-file,line,name,isStruct,isClass,isUnion,isEnum,isThisDeclarationADefinition,isCompleteDefinition,isEmbeddedInDeclarator,isFreeStanding
-/home/patrick/llnl/clang-find-decl/test/00017.c,4,,1,0,0,0,1,1,1,0
-/home/patrick/llnl/clang-find-decl/test/00043.c,1,s,1,0,0,0,1,1,0,1
-/home/patrick/llnl/clang-find-decl/test/00044.c,1,T,1,0,0,0,0,0,0,1
-/home/patrick/llnl/clang-find-decl/test/00046.c,3,,0,0,1,0,1,1,1,1
-/home/patrick/llnl/clang-find-decl/test/00129.c,1,s,1,0,0,0,0,0,1,0
+file,line,name,isStruct,isClass,isUnion,isEnum,isThisDeclarationADefinition,isCompleteDefinition,isEmbeddedInDeclarator,isFreeStanding,hasNameForLinkage,(ENUM) isScoped,(ENUM) isScopedUsingClassTag,(ENUM) isFixed,(ENUM) isComplete,(ENUM) isClosed,(ENUM) isClosedFlag,(ENUM) isClosedNonFlag,(RECORD) isAnonymousStructOrUnion,(RECORD) isNonTrivialToPrimitiveDefaultInitialize,(RECORD) isNonTrivialToPrimitiveCopy,(RECORD) isNonTrivialToPrimitiveDestroy,(RECORD) isParamDestroyedInCallee,(RECORD) isInjectedClassName,(RECORD) isLambda,(RECORD) isCapturedRecord,(RECORD) hasObjectMember,(RECORD) hasVolatileMember,(RECORD) hasLoadedFieldsFromExternalStorage,(RECORD) hasNonTrivialToPrimitiveDefaultInitializeCUnion,(RECORD) hasNonTrivialToPrimitiveDestructCUnion,(RECORD) hasNonTrivialToPrimitiveCopyCUnion,(RECORD) canPassInRegisters,(RECORD) field_empty
+/home/patrick/llnl/clang-find-decl/test/00017.c,4,,1,0,0,0,1,1,1,0,0, , , , , , , 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+/home/patrick/llnl/clang-find-decl/test/00018.c,5,S,1,0,0,0,1,1,1,0,1, , , , , , , 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+/home/patrick/llnl/clang-find-decl/test/00043.c,1,s,1,0,0,0,1,1,0,1,1, , , , , , , 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+/home/patrick/llnl/clang-find-decl/test/00044.c,1,T,1,0,0,0,0,0,0,1,1, , , , , , , 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+/home/patrick/llnl/clang-find-decl/test/00046.c,3,,0,0,1,0,1,1,1,1,0, , , , , , , 1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+/home/patrick/llnl/clang-find-decl/test/00054.c,1,E,0,0,0,1,1,1,0,1,1,0,0,0,1,1,0,1 , , , , , , , , , , , , , , , 
+/home/patrick/llnl/clang-find-decl/test/00120.c,2,,0,0,0,1,1,1,1,0,0,0,0,0,1,1,0,1 , , , , , , , , , , , , , , , 
+/home/patrick/llnl/clang-find-decl/test/00129.c,1,s,1,0,0,0,0,0,1,0,1, , , , , , , 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+/home/patrick/llnl/clang-find-decl/test/00170.c,22,efoo,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1 , , , , , , , , , , , , , , , 
+/home/patrick/llnl/clang-find-decl/test/00198.c,13,,0,0,0,1,1,1,1,0,1,0,0,0,1,1,0,1 , , , , , , , , , , , , , , , 
+/home/patrick/llnl/clang-find-decl/test/00209.c,3,E,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1 , , , , , , , , , , , , , , , 
