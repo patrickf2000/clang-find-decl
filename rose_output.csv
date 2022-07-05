@@ -58,7 +58,6 @@ isNameOnly,hasAssociatedSymbol,get_nameOnly,hasExplicitScope,get_type_elaboratio
 /home/patrick/llnl/clang-find-decl/test/00198.c,"fred",ENUM,0,1,0,,,,,,,,,,,,,,,1,0,0,0,0,1,0,
 /home/patrick/llnl/clang-find-decl/test/00198.c,"__anonymous_0x0_13_12",ENUM,0,1,0,,,,,,,,,,,,,,,1,0,0,0,1,0,0,
 /home/patrick/llnl/clang-find-decl/test/00198.c,"__anonymous_0x0_14_12",ENUM,0,1,0,,,,,,,,,,,,,,,1,0,0,0,1,0,0,
-Errors in Processing Input File: throwing an instance of "frontend_failed" exception due to syntax errors detected in the input code 
 /home/patrick/llnl/clang-find-decl/test/00205.c,"__anonymous_0x0_6_9",CLASS,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,
 /home/patrick/llnl/clang-find-decl/test/00208.c,"wchar",CLASS,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,
 /home/patrick/llnl/clang-find-decl/test/00208.c,"wint",CLASS,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,
@@ -66,7 +65,6 @@ Errors in Processing Input File: throwing an instance of "frontend_failed" excep
 /home/patrick/llnl/clang-find-decl/test/00209.c,"S",CLASS,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,,,,,,,,
 /home/patrick/llnl/clang-find-decl/test/00210.c,"Unaligned16a",CLASS,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
 /home/patrick/llnl/clang-find-decl/test/00210.c,"Unaligned16b",CLASS,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
-Errors in Processing Input File: throwing an instance of "frontend_failed" exception due to syntax errors detected in the input code 
 /home/patrick/llnl/clang-find-decl/test/00218.c,"tree_code",ENUM,0,1,0,,,,,,,,,,,,,,,1,0,0,0,0,1,0,
 /home/patrick/llnl/clang-find-decl/test/00218.c,"tree_node",CLASS,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,,,,,,,,
 /home/patrick/llnl/clang-find-decl/test/00218.c,"tree_common",CLASS,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,
